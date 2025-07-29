@@ -5,14 +5,14 @@
   tasks:
   - name: creatig first play 1 and task 1
     ansible.builtin.debug:
-      msg:"Hello play 1 and task 1"
+      msg: "Hello play 1 and task 1"
   
   - name: creatig first play 2 and task 2
     ansible.builtin.debug:
-      msg:"Hello play 2 and task 2"
+      msg: "Hello play 2 and task 2"
 
   - name: creatig first play 3 and task 3
     ansible.builtin.debug:
-      msg:"Hello play 3 and task 3"
+      msg: "Hello play 3 and task 3"
   
   
