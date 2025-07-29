@@ -1,0 +1,19 @@
+
+- name: ansible datatypes
+  hosts: local
+  connection: local
+  vars:
+    duration: 120
+    course: "DevsecOps with AWS"
+    is_live: true
+    Tools:
+    - Linux
+    - Shell
+    - Ansible
+  Concepts:
+    CI: Jenkins
+    scripting: "Shell, Ansible, Terraform, Python"
+  tasks:
+  - name: print course information
+    ansible.builtin.debug:
+      msg: "Course is : {{course }}, Duration: {{ duration }}, is live: {{ is_live }}, Tools are:{{ Tools }}, Concepts are: {{ Concepts }}"
