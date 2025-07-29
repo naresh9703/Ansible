@@ -9,9 +9,9 @@
     - Linux
     - Shell
     - Ansible
-  Concepts:
-    CI: Jenkins
-    scripting: "Shell, Ansible, Terraform, Python"
+    Concepts:
+      CI: Jenkins
+      scripting: "Shell, Ansible, Terraform, Python"
   tasks:
   - name: print course information
     ansible.builtin.debug:
