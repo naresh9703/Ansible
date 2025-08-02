@@ -5,5 +5,4 @@
   tasks:
   - name: priting the function variables
   ansible.builtin.debug:
-    msg: "Hello {{ person | default('ram') }}"
-    
+    msg: " Hello {{ person | default('ram') }}"
