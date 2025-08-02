@@ -1,5 +1,5 @@
 
-- name: priting function
+- name: declaring the fucntion
   hosts: local
   connection: local
   tasks:
