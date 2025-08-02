@@ -11,3 +11,13 @@
   - name: print names
     ansible.builtin.debug:
       msg: "Hello {{ persons | split(',')}}"
+
+
+  - name: convert map into list
+    vars:
+      course:
+        name: ansible
+        duration: 10HR
+        trainer: Naresh
+    ansible.builtin.debug:
+      msg: "course info: {{ course | dict2items }}"
