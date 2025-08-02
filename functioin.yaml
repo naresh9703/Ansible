@@ -1,7 +1,9 @@
-- name: functions
+
+- name: priting function
   hosts: local
   connection: local
   tasks:
-  - name: priting the function variables
+  - name: printing undefined variables
   ansible.builtin.debug:
-    msg: "Hello {{ person | default('ram') }}"
+    msg: "Hello {{ person | default('Luna') }}"
+
