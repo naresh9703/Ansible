@@ -1,6 +1,5 @@
 - name: shell vs command
-  hosts: local
-  connection: local
+  hosts: frontend
   tasks:
   - name: redirect ls output file to file
     ansible.builtin.shell:
